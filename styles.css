@@ -6,12 +6,7 @@ body {
 }
  /* HEADER */
 header {
-    width: 1170px;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
     padding: 30px 40px;
-    transition: all .5s ease;
 }
 header .menu-toggle {
     display: none;    
