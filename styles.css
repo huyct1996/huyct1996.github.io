@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -56,6 +57,14 @@ header .contact .unit .unit-body p {
 }
 
 /* NAV */
+.nav-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+}
+
 nav .menu {
     display: flex;
     justify-content: space-between;
@@ -63,6 +72,7 @@ nav .menu {
     color: #fff;
     padding: 0 10px;
     flex-direction: row-reverse;
+    z-index: 99;
 }
 
 nav .menu ul {
@@ -113,6 +123,7 @@ nav .menu ul li ul {
     box-shadow: 0 0 3px #171717;
     border-radius: 5px;
     transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+    z-index: 99;
 }
 
 nav .menu ul li.active ul {
@@ -166,6 +177,7 @@ nav .menu .search .form-search {
     height: 50px;
     display: none;
     transition: all .5s ease;
+    z-index: 99;
 }
 
 nav .menu .search .form-search.open {
@@ -177,8 +189,52 @@ nav .menu .search .btn-search {
 }
 
 /* SLIDESHOW */
-.slide .carousel-inner .carousel-item img {
-    height: 455px;
+.slideshow {
+    position: relative;
+    background: url("./img/bg-image-1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slideshow .carousel-inner .carousel-item h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 68px;
+    color: #294056;
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.slideshow ol.carousel-indicators {
+    justify-content: flex-start;
+    bottom: 15px;
+    margin-left: 50px;
+}
+
+.slideshow ol.carousel-indicators li {
+    text-indent: 0;
+    width: 40px;
+    height: 15px;
+    background: transparent;
+    color: #000;
+    line-height: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;;
+}
+
+.slideshow ol.carousel-indicators li.active {
+    color: #fff;
+    background: #b2e8f9;
+}
+
+.slideshow .carousel-inner .carousel-item .btn-outer {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    text-align: center;
 }
 
 /* MEDIA */
