@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 body {
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
 }
  /* HEADER */
 header {
@@ -94,12 +94,13 @@ nav .menu ul li.active.sub-menu:before {
 }
 
 nav .menu ul li a {
+    font-family: 'Francois One', sans-serif;
     height: 60px;
     line-height: 60px;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
-    padding: 0 30px;
+    padding: 0 25px;
     display: block;
 }
 
@@ -237,11 +238,12 @@ nav .menu .search .btn-search {
 }
 /*SERVICES*/
 .services {
-    padding: 70px 0;
+    padding: 50px 0 0 0;
 }
 
 .services h3 {
-    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
     font-weight: bold;
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -256,14 +258,25 @@ nav .menu .search .btn-search {
     margin-top: 10px;
 }
 
-.services a {
+.services h5 a {
     color: black;
-    font-weight: bold;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
-.services a:hover {
+.services h5 a:hover {
     color: #b2e8f9;
+    text-decoration: none;
+}
+
+.services .btn-services a {
+    padding: 10px 40px;
+    color: #000;
+    font-weight: 600;
+}
+
+.services .btn-services a:hover {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -283,6 +296,7 @@ nav .menu .search .btn-search {
 
 .services .thumbnail-img a:hover .overlay {
     display: block;
+    border-radius: 5px;
 }
 
 
@@ -427,6 +441,7 @@ nav .menu .search .btn-search {
         top: 14px;
         font-size: 20px;
         color: #9E9E9E;
+        z-index: 100;
     }
 
     nav .menu .search .btn-search:hover {

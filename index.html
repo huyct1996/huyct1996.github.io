@@ -8,226 +8,237 @@
 	<link rel="stylesheet" href="styles.css">
 	<script src="https://kit.fontawesome.com/c5a536b751.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
 <body>
-	<div class="container-fluid p-0">
-		<header class="d-flex">
-			<div class="menu-toggle"></div>
-			<div class="logo">
-				<img src="./img/logo_blue.png" alt="logo">
-			</div>
-			<div class="contact">
-				<div class="unit">
-					<div class="unit-left">
-						<i class="fas fa-phone"></i>
-					</div>
-					<div class="unit-body">
-						<p>+(84) 0377830907</p>
-						<p>+(84) 0924054171</p>
-					</div>
+	<!-- HEADER -->
+	<header class="d-flex">
+		<div class="menu-toggle"></div>
+		<div class="logo">
+			<img src="./img/logo_blue.png" alt="logo">
+		</div>
+		<div class="contact">
+			<div class="unit">
+				<div class="unit-left">
+					<i class="fas fa-phone"></i>
 				</div>
-				<div class="unit">
-					<div class="unit-left">
-						<i class="fas fa-map-marker-alt"></i>
-					</div>
-					<div class="unit-body">
-						<p>439/4/1 Tân Thới Hiệp 12, Quận 12, TP.HCM</p>
-					</div>
+				<div class="unit-body">
+					<p>+(84) 0377830907</p>
+					<p>+(84) 0924054171</p>
 				</div>
 			</div>
-		</header>
-		<!-- NAV -->
-		<nav>
-			<div class="menu">
-				<div class="search">
-					<div class="ic-search"><i class="fas fa-search"></i></div>
-					<form class="position-relative" action="">
-						<input class="form-control form-search" type="text" placeholder="Search..." aria-label="Search">
-						<button class="btn-search" type="submit"><i class="fas fa-search"></i></button>
-					</form>
+			<div class="unit">
+				<div class="unit-left">
+					<i class="fas fa-map-marker-alt"></i>
 				</div>
-				<ul class="list-unstyled">
-					<li><a href="#">Trang Chủ</a></li>
-					<li class="sub-menu"><a href="#">Chó Cảnh</a>
-						<ul class="list-unstyled">
-							<li><a href="#">Chó Corgi</a></li>
-							<li><a href="#">Chó Pug</a></li>
-							<li><a href="#">Chó Husky</a></li>
-						</ul>
-					</li>
-					<li class="sub-menu"><a href="#">Mèo Cảnh</a>
-						<ul class="list-unstyled">
-							<li><a href="#">Mèo Anh Tai Cụp</a></li>
-							<li><a href="#">Mèo Xiêm</a></li>
-							<li><a href="#">Mèo Anh Lông Dài</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Phụ Kiện</a></li>
-					<li><a href="#">Bài Viết</a></li>
-				</ul>
+				<div class="unit-body">
+					<p>439/4/1 Tân Thới Hiệp 12, Quận 12, TP.HCM</p>
+				</div>
 			</div>
-		</nav>
-		<!-- END NAV -->
+		</div>
+	</header>
+	<!-- END HEADER -->
 
-		<!-- SLIDESHOW -->
-		<section class="slideshow">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="row">
-							<div class="col-12 col-md-6 slideshow-content">
-								<h1>
-									<p class="font-weight-light animate__animated animate__fadeInLeft">
-										<span>Đơn vị số 1</span>
-									</p>
-									<p class="font-weight-bold animate__animated animate__fadeInLeft">
-										<span>Về giao hàng</span>
-									</p>
-								</h1>
-								<div class="btn-outer">
-									<a class="btn btn-primary btn-lg animate__animated animate__fadeInLeft" href="#">
-										<div class="content-original text-capitalize">
-											Tư vấn miễn phí
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-12 col-md-6 slideshow-img">
-								<img class="d-block" src="./img/slide/swiper-image-1-960x776.jpg" alt="First slide">
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="row">
-							<div class="col-12 col-md-6 slideshow-content">
-								<h1>
-									<p class="font-weight-light animate__animated animate__fadeInLeft">
-										<span>Sale sập sàn</span>
-									</p>
-									<p class="font-weight-bold animate__animated animate__fadeInLeft">
-										<span>deal ngập tràn</span>
-									</p>
-								</h1>
-								<div class="btn-outer">
-									<a class="btn btn-primary btn-lg animate__animated animate__fadeInLeft" href="#">
-										<div class="content-original text-capitalize">
-											Tư vấn miễn phí
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-12 col-md-6 slideshow-img">
-								<img class="d-block" src="./img/slide/swiper-image-2-960x776.jpg" alt="Second slide">
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="row">
-							<div class="col-12 col-md-6 slideshow-content">
-								<h1>
-									<p class="font-weight-light animate__animated animate__fadeInLeft">
-										<span>Dịch vụ đặc biệt</span>
-									</p>
-									<p class="font-weight-bold animate__animated animate__fadeInLeft">
-										<span>Chải lông chó</span>
-									</p>
-								</h1>
-								<div class="btn-outer">
-									<a class="btn btn-primary btn-lg animate__animated animate__fadeInLeft" href="#">
-										<div class="content-original text-capitalize">
-											Tư vấn miễn phí
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-12 col-md-6 slideshow-img">
-								<img class="d-block" src="./img/slide/swiper-image-3-960x776.jpg" alt="Third slide">
+	<!-- NAV -->
+	<nav>
+		<div class="menu">
+			<div class="search">
+				<div class="ic-search"><i class="fas fa-search"></i></div>
+				<form class="position-relative" action="">
+					<input class="form-control form-search" type="text" placeholder="Search..." aria-label="Search">
+					<button class="btn-search" type="submit"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+			<ul class="list-unstyled">
+				<li><a href="#">Trang Chủ</a></li>
+				<li class="sub-menu"><a href="#">Chó Cảnh</a>
+					<ul class="list-unstyled">
+						<li><a href="#">Chó Corgi</a></li>
+						<li><a href="#">Chó Pug</a></li>
+						<li><a href="#">Chó Husky</a></li>
+					</ul>
+				</li>
+				<li class="sub-menu"><a href="#">Mèo Cảnh</a>
+					<ul class="list-unstyled">
+						<li><a href="#">Mèo Anh Tai Cụp</a></li>
+						<li><a href="#">Mèo Xiêm</a></li>
+						<li><a href="#">Mèo Anh Lông Dài</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Phụ Kiện</a></li>
+				<li><a href="#">Bài Viết</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- END NAV -->
+
+	<!-- SLIDESHOW -->
+	<section class="slideshow">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-12 col-md-6 slideshow-content">
+							<h1>
+								<p class="font-weight-light animate__animated animate__fadeInLeft">
+									<span>Đơn vị số 1</span>
+								</p>
+								<p class="font-weight-bold animate__animated animate__fadeInLeft">
+									<span>Về giao hàng</span>
+								</p>
+							</h1>
+							<div class="btn-outer">
+								<a class="btn btn-primary btn-lg animate__animated animate__fadeInLeft" href="#">
+									<div class="content-original text-capitalize">
+										Tư vấn miễn phí
+									</div>
+								</a>
 							</div>
 						</div>
+						<div class="col-12 col-md-6 slideshow-img">
+							<img class="d-block" src="./img/slide/swiper-image-1-960x776.jpg" alt="First slide">
+						</div>
 					</div>
-					<a class="carousel-control-prev d-none d-md-flex" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next d-none d-md-flex" href="#carouselExampleIndicators" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-12 col-md-6 slideshow-content">
+							<h1>
+								<p class="font-weight-light animate__animated animate__fadeInLeft">
+									<span>Sale sập sàn</span>
+								</p>
+								<p class="font-weight-bold animate__animated animate__fadeInLeft">
+									<span>deal ngập tràn</span>
+								</p>
+							</h1>
+							<div class="btn-outer">
+								<a class="btn btn-primary btn-lg animate__animated animate__fadeInLeft" href="#">
+									<div class="content-original text-capitalize">
+										Tư vấn miễn phí
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 slideshow-img">
+							<img class="d-block" src="./img/slide/swiper-image-2-960x776.jpg" alt="Second slide">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-12 col-md-6 slideshow-content">
+							<h1>
+								<p class="font-weight-light animate__animated animate__fadeInLeft">
+									<span>Dịch vụ đặc biệt</span>
+								</p>
+								<p class="font-weight-bold animate__animated animate__fadeInLeft">
+									<span>Chải lông chó</span>
+								</p>
+							</h1>
+							<div class="btn-outer">
+								<a class="btn btn-primary btn-lg animate__animated animate__fadeInLeft" href="#">
+									<div class="content-original text-capitalize">
+										Tư vấn miễn phí
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 slideshow-img">
+							<img class="d-block" src="./img/slide/swiper-image-3-960x776.jpg" alt="Third slide">
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev d-none d-md-flex" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next d-none d-md-flex" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- END SLIDESHOW -->
+
+	<!-- SERVICES -->
+	<section class="services">
+		<div class="container">
+			<h3 class="text-center">Dịch vụ</h3>
+			<div class="row mb-2">
+				<div class="col-12 col-sm-6 col-lg-3">
+					<article class="thumbnail-light mb-4">
+						<div class="thumbnail-img">
+							<a href="#">
+								<div class="overlay"></div>
+								<img class="w-100" src="./img/services/service-thumbnail-1-270x200.jpg" alt="...">
+							</a>
+						</div>
+						<h5>
+							<a href="#">Tạo kiểu</a>
+						</h5>
+					</article>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<article class="thumbnail-light mb-4">
+						<div class="thumbnail-img">
+							<a href="#">
+								<div class="overlay"></div>
+								<img class="w-100" src="./img/services/service-thumbnail-2-270x200.jpg" alt="...">
+							</a>
+						</div>
+						<h5>
+							<a href="#">Chải lông</a>
+						</h5>
+					</article>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<article class="thumbnail-light mb-4">
+						<div class="thumbnail-img">
+							<a href="#">
+								<div class="overlay"></div>
+								<img class="w-100" src="./img/services/service-thumbnail-3-270x200.jpg" alt="...">
+							</a>
+						</div>
+						<h5>
+							<a href="#">Tắm và cắt tỉa</a>
+						</h5>
+					</article>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<article class="thumbnail-light mb-4">
+						<div class="thumbnail-img">
+							<a href="#">
+								<div class="overlay"></div>
+								<img class="w-100" src="./img/services/service-thumbnail-4-270x200.jpg" alt="...">
+							</a>
+						</div>
+						<h5>
+							<a href="#">Thư giãn</a>
+						</h5>
+					</article>
 				</div>
 			</div>
-		</section>
-		<!-- END SLIDESHOW -->
-		<!-- SERVICES -->
-		<section class="services">
-			<div class="container">
-				<h3 class="text-center">Dịch vụ</h3>
-				<div class="row">
-					<div class="col-3">
-						<article class="thumbnail-light">
-							<div class="thumbnail-img">
-								<a href="#">
-									<div class="overlay"></div>
-									<img class="w-100" src="./img/services/service-thumbnail-1-270x200.jpg" alt="...">
-								</a>
-							</div>
-							<h5>
-								<a href="#">Styling</a>
-							</h5>
-						</article>
-					</div>
-					<div class="col-3">
-						<article class="thumbnail-light">
-							<div class="thumbnail-img">
-								<a href="#">
-									<div class="overlay"></div>
-									<img class="w-100" src="./img/services/service-thumbnail-2-270x200.jpg" alt="...">
-								</a>
-							</div>
-							<h5>
-								<a href="#">Styling</a>
-							</h5>
-						</article>
-					</div>
-					<div class="col-3">
-						<article class="thumbnail-light">
-							<div class="thumbnail-img">
-								<a href="#">
-									<div class="overlay"></div>
-									<img class="w-100" src="./img/services/service-thumbnail-3-270x200.jpg" alt="...">
-								</a>
-							</div>
-							<h5>
-								<a href="#">Styling</a>
-							</h5>
-						</article>
-					</div>
-					<div class="col-3">
-						<article class="thumbnail-light">
-							<div class="thumbnail-img">
-								<a href="#">
-									<div class="overlay"></div>
-									<img class="w-100" src="./img/services/service-thumbnail-4-270x200.jpg" alt="...">
-								</a>
-							</div>
-							<h5>
-								<a href="#">Styling</a>
-							</h5>
-						</article>
-					</div>
-				</div>
-				<div class="btn-services">
-					<a href="#" class="btn btn-primary">aaaaaaaaa</a>
-				</div>
+			<div class="btn-services text-center">
+				<a href="#" class="btn btn-outline-primary">Xem thêm</a>
 			</div>
-		</section>
-		<!-- END SERVICES -->
-	</div>	
+		</div>
+	</section>
+	<!-- END SERVICES -->
+
+	<!-- HOT PRODUCTS -->
+	<section class="hot-products">
+		<div class="container">
+			
+		</div>
+	</section>
+	<!-- END HOT PRODUCTS -->
+
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
