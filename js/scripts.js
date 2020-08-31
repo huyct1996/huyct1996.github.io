@@ -54,7 +54,6 @@ $(document).ready(function(){
                 settings: {
                 slidesToShow: 3,
                 infinite: true,
-                dots: true
                 }
             },
             {
