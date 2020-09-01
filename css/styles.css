@@ -324,7 +324,20 @@ nav .menu .search .btn-search {
     padding: 100px 0;
 }
 
-.hot-products .slick-prev,
+.hot-products .slick-prev {
+    font-size: 0;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: -78px;
+    right: 42px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
 .hot-products .slick-next {
     font-size: 0;
     color: black;
@@ -332,10 +345,31 @@ nav .menu .search .btn-search {
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
+    position: absolute;
+    top: -78px;
+    right: 0;
+    outline: none;
+    border-radius: 0 5px 5px 0;
 }
 
 .hot-products .slick-prev:before {
-    content: '';
+    content: "\f0d9";
+    font-family: fontAwesome;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.hot-products .slick-next:before {
+    content: "\f0da";
+    font-family: fontAwesome;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.hot-products .slick-prev:hover,
+.hot-products .slick-next:hover {
+    background: #b2e8f9;
+    color: #fff;
 }
 
 /* PRODUCTS */
