@@ -43,11 +43,42 @@ window.onscroll = function myFunction() {
 // }
 
 // SLICK SLIDESHOW
+// HOT-PRODUCTS
 $(document).ready(function(){
     $('.hot-slide').slick({
         slidesToShow: 4,
         autoplay: true,
         autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                infinite: true,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 375,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
+            }
+        ]
+    });
+});
+
+// PRODUCTS
+$(document).ready(function(){
+    $('.products-slide').slick({
+        slidesToShow: 4,
         responsive: [
             {
                 breakpoint: 1024,
