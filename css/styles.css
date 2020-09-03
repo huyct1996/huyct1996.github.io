@@ -281,6 +281,7 @@ nav .menu .search .btn-search {
     color: black;
     font-weight: 600;
     text-transform: capitalize;
+    font-size: 17px;
 }
 
 .services .thumbnail-light h5 a:hover {
@@ -400,12 +401,12 @@ nav .menu .search .btn-search {
 
 .product .product-inner {
     border-radius: 5px;
-    border: 2px solid #00000024;
+    border: 1px solid #00000024;
     margin-bottom: 10px;
 }
 
 .product .product-inner:hover {
-    border: 2px solid #1d68b9;
+    border: 1px solid #1d68b9;
 }
 
 .product .product-inner figure {
@@ -420,7 +421,7 @@ nav .menu .search .btn-search {
     outline: none;
     transition: .4s ease;
     transform: translateX(0);
-    height: 300px;
+    height: 230px;
 }
 
 .product .product-inner figure:hover a.img-product {
@@ -492,7 +493,35 @@ nav .menu .search .btn-search {
     padding-top: 70px;
 }
 
-/*#f5f6fa*/
+/* FOOTER */
+footer {
+    margin-top: 60px;
+    background: #000;
+    color: #74757f;
+}
+
+footer h4 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer .blog-footer .blog-inner .blog-title a {
+    color: #fff;
+}
+
+footer .blog-footer .blog-inner .blog-title a:hover {
+    color: #b2e8f9;
+    text-decoration: none;
+}
+
+footer .blog-footer .blog-inner .blog-title span {
+    margin-left: 10px;
+}
+/* END FOOTER */
+
+/*f5f6fa*/
 
 /* MEDIA */
 @media(min-width: 1300px) {
